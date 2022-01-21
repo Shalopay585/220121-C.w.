@@ -5,7 +5,9 @@ void WorkClass::startWork() {
 
 
     GoodBasic* universalPointer01 = new Chips;
+    GoodBasic* universalPointer02 = new Freezer(1, 234, "Freezer Samsung", "Good thing...", 2, 34);
     static_cast<Chips*>(universalPointer01)->toString();
+    static_cast<Freezer*>(universalPointer02)->toString();
 
 
 
