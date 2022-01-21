@@ -1,7 +1,15 @@
 #include "WorkClass.h"
 void WorkClass::startWork() {
     std::cout << "Hello Привет World!\n";
-	Freezer freezer01(1, 234, "Freezer Samsung", "Good thing...", 2, 34);
+
+
+
+    GoodBasic* universalPointer01 = new Chips;
+    static_cast<Chips*>(universalPointer01)->toString();
+
+
+
+	/*Freezer freezer01(1, 234, "Freezer Samsung", "Good thing...", 2, 34);
 	Freezer* pointerFreezer01 = &freezer01;
 
     GoodBasic* universalPointer01 = new GoodBasic;
@@ -10,5 +18,5 @@ void WorkClass::startWork() {
 
     static_cast<GoodBasic*>(universalPointer01)->toString();
     static_cast<GoodBasic*>(universalPointer02)->toString();
-    static_cast<GoodBasic*>(universalPointer03)->toString();
+    static_cast<GoodBasic*>(universalPointer03)->toString();*/
 }
