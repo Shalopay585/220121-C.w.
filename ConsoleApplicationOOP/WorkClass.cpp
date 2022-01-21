@@ -5,7 +5,15 @@ void WorkClass::startWork() {
 
 
     GoodBasic* universalPointer01 = new Chips;
+<<<<<<< Updated upstream
     static_cast<Chips*>(universalPointer01)->toString();
+=======
+    GoodBasic* universalPointer02 = new Freezer(1, 234, "Freezer Samsung", "Good thing...", 2, 34);
+    GoodBasic* universalPointer03 = new Software(1, 234, "Soft FOR Samsung", "Very Good thing...", 2, 34);
+    static_cast<Chips*>(universalPointer01)->toString();
+    static_cast<Freezer*>(universalPointer02)->toString();
+    static_cast<Software*>(universalPointer03)->toString();
+>>>>>>> Stashed changes
 
 
 
